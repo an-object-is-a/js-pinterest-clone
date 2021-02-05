@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/pin_styles.css">
+</head>
+
+<body>
+    <input type="file" name="picture" id="picture">
+
+    <div class="card">
+        <div class="pin_title"></div>
+
+        <div class="pin_modal">
+            <div class="modal_head">
+                <div class="save_card">Save</div>
+            </div>
+
+            <div class="modal_foot">
+                <div class="destination">
+                    <div class="pint_mock_icon_container">
+                        <img src="./images/upper-right-arrow.png" alt="destination" class="pint_mock_icon">
+                    </div>
+                    <span>Eatery</span>
+                </div>
+
+                <div class="pint_mock_icon_container">
+                    <img src="./images/send.png" alt="send" class="pint_mock_icon">
+                </div>
+
+                <div class="pint_mock_icon_container">
+                    <img src="./images/ellipse.png" alt="edit" class="pint_mock_icon">
+                </div>
+            </div>
+        </div>
+
+        <div class="pin_image">
+            <img src="" alt="pin_image">
+        </div>
+
+
+    </div>
+
+    <script src="./scripts/pin_script.js"></script>
+</body>
+
+</html>
